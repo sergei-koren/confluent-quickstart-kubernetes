@@ -24,8 +24,7 @@ spec:
     spec:
       containers:
       - name: kafka-rest
-        image: confluentinc/cp-kafka-rest:3.2.0@sha256:82206b1609d84e30279688ed036b034c503feb35543637d930f3d95136296245
-        env:
+        image: confluentinc/cp-kafka-rest:4.0.0
         - name: KAFKA_REST_ZOOKEEPER_CONNECT
           value: zookeeper:32181
         - name: KAFKA_REST_SCHEMA_REGISTRY_URL

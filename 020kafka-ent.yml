@@ -27,7 +27,7 @@ spec:
       terminationGracePeriodSeconds: 10
       containers:
       - name: kafka
-        image: confluentinc/cp-kafka:4.0.0
+        image: confluentinc/cp-enterprise-kafka:4.0.0
         env:
         - name: KAFKA_ZOOKEEPER_CONNECT
           value: "zookeeper:32181"
